@@ -8,12 +8,12 @@ To ensure that all Diversus developers maintain a base level of consistency rega
 
 ## Table of Contents
 
-1. [Naming Conventions](#1)
-2. [SCSS Nesting](#2)
+1. [Naming Conventions](#naming-conventions)
+2. [SCSS Nesting](#scss-nesting)
 
 
 
-## Naming Conventions {#1}
+## Naming Conventions
 
 While working on any project, it is important for there to be a set and consistent naming conventions while creating components. 
 
@@ -53,7 +53,7 @@ If you're working on a new project and are setting a naming convention, try [BEM
 
 
 
-## SCSS Nesting {#2}
+## SCSS Nesting
 
 While writing SCSS, try to take advantage of the nesting functionality in conjunction with the `&` parent selector. `&` is a special selector that includes all of the nested selectors above it. Using the `&` parent selector can help to minimise [CSS Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) and produce less problems with over-specific styles which are difficult to override.
 
